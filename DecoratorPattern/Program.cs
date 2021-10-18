@@ -13,6 +13,8 @@ namespace DecoratorPattern
             LunchDecorator lunchDecorator = new LunchDecorator(backpackDecorator);
             BowDecorator bowDecorator = new BowDecorator(lunchDecorator);
             Console.WriteLine(bowDecorator.GirlDescription());
+
+            Console.WriteLine(fata.GirlDescription());
         }
     }
 }
